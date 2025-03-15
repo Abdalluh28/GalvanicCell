@@ -19,37 +19,53 @@ export default function App() {
             </main>
 
             {/* Footer */}
-            <footer className="bg-gray-800 text-white pl-5 py-6 shadow-md flex md:flex-row flex-col">
+            <footer className="bg-gray-800 text-white pl-5 py-6 shadow-md flex flex-col">
                 {/* Contributors */}
-                <div className="mb-2 md:w-1/4">
-                    <h2 className="text-lg font-semibold">Developed By</h2>
-                    <p className="text-sm md:text-base pl-2">Abdo Khaled</p>
-                    <p className="text-sm md:text-base pl-2">Ali Hossom</p>
-                    <p className="text-sm md:text-base pl-2">Abdelrhman Osama</p>
-                    <p className="text-sm md:text-base pl-2">Mohamed Hamdy</p>
-                </div>
+                <div className="flex lg:flex-row flex-col">
+                    <div className="flex flex-row lg:w-1/2 w-full mb-4">
+                        <div className="mb-2 w-1/2">
+                            <h2 className="text-lg font-semibold">Developed By</h2>
+                            <p className="text-sm md:text-base pl-2 font-bold">Omnia Essam</p>
+                            <p className="text-sm md:text-base pl-2 font-bold">Rokaya Ayman</p>
+                            <p className="text-sm md:text-base pl-2 font-bold">Sohaila Mohamed</p>
+                            <p className="text-sm md:text-base pl-2 font-bold">Somaya Salah</p>
+                            <p className="text-sm md:text-base pl-2 font-bold">Esraa Mamdouh</p>
+                            <p className="text-sm md:text-base pl-2 font-bold">Mai Ali</p>
+                        </div>
 
-                {/* College/Institution */}
-                <div className="mb-2 md:w-1/4">
-                    <h2 className="text-lg font-semibold">College</h2>
-                    <p className="text-sm md:text-base pl-2">Shoubra Faculty of Engineering</p>
-                </div>
+                        <div className="mb-2 w-1/2">
+                            <h2 className="text-lg font-semibold">Contact</h2>
+                            <p className="text-sm md:text-base pl-2">STEM-Chemistry2022_23@edu.asu.edu.eg</p>
+                            <p className="text-sm md:text-base pl-2">STEM-Chemistry2022_5@edu.asu.edu.eg</p>
+                            <p className="text-sm md:text-base pl-2">STEM-Chemistry2022_8@edu.asu.edu.eg</p>
+                            <p className="text-sm md:text-base pl-2">STEM-Chemistry2022_7@edu.asu.edu.eg</p>
+                            <p className="text-sm md:text-base pl-2">STEM-Chemistry2022_1@edu.asu.edu.eg</p>
+                            <p className="text-sm md:text-base pl-2">STEM-Chemistry2022_21@edu.asu.edu.eg</p>
+                        </div>
+                    </div>
 
-                {/* Source Link */}
-                <div className="mb-2 md:w-1/4">
-                    <h2 className="text-lg font-semibold">Source</h2>
-                    <a 
-                        href="https://teachchemistry.org/simulations/2021/may/" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-blue-400 hover:underline pl-2"
-                    >
-                        View Original Simulation
-                    </a>
+                    {/* Supervisor */}
+                    <div className="flex flex-row lg:w-1/2 w-full mb-4">
+                        <div className="mb-2 w-1/2">
+                            <h2 className="text-lg font-semibold">Supervisor</h2>
+                            <p className="text-sm md:text-base pl-2">Dr. Raghda Kamal Elden</p>
+                        </div>
+
+                        {/* College/Institution */}
+                        <div className="mb-2 w-1/2">
+                            <h2 className="text-lg font-semibold">University</h2>
+                            <p className="text-sm md:text-base pl-2">Ain Shams University</p>
+                            <p className="text-sm md:text-base pl-2">Bachelor of Science and Education (STEM Chemistry, English)</p>
+                            <p className="text-sm md:text-base pl-2">Group 307</p>
+                        </div>
+                    </div>
+
+
+                    {/* Contact Emails */}
                 </div>
 
                 {/* Rights */}
-                <p className="text-sm md:text-base mt-2 md:w-1/4">© 2025 Galvanic/Voltaic Cells. All Rights Reserved.</p>
+                <p className="text-sm md:text-base mt-2 md:w-full text-center">© 2025 STEM Chemistry Program, Ain Shams University. All Rights Reserved.</p>
             </footer>
         </div>
     );
